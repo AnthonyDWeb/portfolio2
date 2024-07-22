@@ -1,0 +1,44 @@
+.navBg {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    .navbar {
+        display: flex;
+        height: 7vh;
+        margin: 0 10px;
+        border-bottom: 1px solid var(--ligth);
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+            color: var(--ligth);
+            cursor: pointer;
+            margin-left: 20px;
+        }
+
+        .navlinks {
+            width: 60vw;
+
+            ul {
+                display: flex;
+                justify-content: space-around;
+
+                >a {
+                    color: var(--ligth);
+                    font-size: 1.1rem;
+                    font-weight: bold;
+                    text-decoration: none;
+                    padding: 5px 10px;
+                    border-radius: 10px;
+
+                    &:hover {
+                        color: var(--dark);
+                        background-color: var(--ligth);
+                        box-shadow: 0 0 2em var(--ligth);
+                    }
+                }
+            }
+        }
+    }
+}

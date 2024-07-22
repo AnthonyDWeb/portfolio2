@@ -1,0 +1,30 @@
+.observer {
+    margin-top: 20px;
+    text-align: center;
+    align-self: center;
+    background-color: red;
+    transition: all 1s ease;
+
+    &.top {
+        transform: translateY(-100%);
+    }
+
+    &.bottom {
+        transform: translateY(100%);
+    }
+
+    &.left {
+        transform: translateX(-100%);
+    }
+
+    &.right {
+        transform: translateX(100%);
+    }
+    &.fadein {
+        opacity: 0;
+    }
+    &.active {
+        opacity: 1;
+        transform: translateX(0%) translateY(0%);
+    }
+}
