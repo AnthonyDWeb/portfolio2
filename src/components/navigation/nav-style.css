@@ -29,13 +29,13 @@
                     font-size: 1.1rem;
                     font-weight: bold;
                     text-decoration: none;
-                    padding: 5px 10px;
+                    padding: 5px 15px;
                     border-radius: 10px;
 
                     &:hover {
                         color: var(--dark);
                         background-color: var(--ligth);
-                        box-shadow: 0 0 2em var(--ligth);
+                        box-shadow: 0 0 1em 0.5em var(--ligth);
                     }
                 }
             }

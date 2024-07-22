@@ -1,9 +1,9 @@
 import React from 'react';
 import "./intersection.css";
 
-export default function Intersection({children, refObserver, animation }) {
+export default function Intersection({children, idObserver, refObserver, animation, addStyle }) {
     const classname = `observer ${animation}`;
     return (
-        <div ref={refObserver} className={classname}>{children}</div>
+        <div id={idObserver} ref={refObserver} className={classname} style={addStyle}>{children}</div>
     )
 }

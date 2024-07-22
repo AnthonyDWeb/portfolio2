@@ -41,7 +41,7 @@ export default function Projets() {
         Velit, eveniet aliquid doloremque, delectus, sed officiis dolorum minima consequatur iure cupiditate commodi. Voluptate laboriosam nostrum quisquam! Aperiam cupiditate maxime magni eos odit, quia, corrupti aliquam debitis id optio neque?
         Quibusdam ipsa alias necessitatibus. Quam dolorum doloribus at nisi sit veniam odio facere, quo accusantium aliquid vel molestias cupiditate dignissimos doloremque laborum enim qui illum deleniti pariatur voluptatum amet. Culpa.</p>
 
-      <Intersection refObserver={firstSection} animation={"bottom fadein"}>
+      <Intersection idObserver="test" refObserver={firstSection} animation={"bottom fadein"}>
         <h2>Obervateur test 1</h2>
       </Intersection>
 
