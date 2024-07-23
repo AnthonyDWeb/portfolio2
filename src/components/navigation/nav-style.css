@@ -2,17 +2,18 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    background-color: light-dark(var(--dimligth), var(--dark));
 
     .navbar {
         display: flex;
         height: 7vh;
         margin: 0 10px;
-        border-bottom: 1px solid var(--ligth);
         align-items: center;
         justify-content: space-between;
+        border-bottom: light-dark(var(--dark), var(--dimligth)) 1px solid;
 
         .logo {
-            color: var(--ligth);
+            color: light-dark(var(--dark), var(--dimligth));
             cursor: pointer;
             margin-left: 20px;
         }
@@ -25,17 +26,19 @@
                 justify-content: space-around;
 
                 >a {
-                    color: var(--ligth);
                     font-size: 1.1rem;
                     font-weight: bold;
-                    text-decoration: none;
                     padding: 5px 15px;
                     border-radius: 10px;
+                    text-decoration: none;
+                    transition-delay: 0.3s;
+                    color: light-dark(var(--dark), var(--dimligth));
 
                     &:hover {
-                        color: var(--dark);
-                        background-color: var(--ligth);
-                        box-shadow: 0 0 1em 0.5em var(--ligth);
+                        transition-delay: 0s;
+                        color: light-dark(var(--dimligth), var(--dark));
+                        background-color: light-dark(var(--dark), var(--ligth));
+                        box-shadow: 0 0 1em 0.5em light-dark(var(--dark), var(--ligth));
                     }
                 }
             }

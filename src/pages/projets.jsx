@@ -28,7 +28,7 @@ export default function Projets() {
 
   return (
     <div id='project' className='page'>
-      <h1>Project</h1>
+      <h2 className='title-page'>Mes projets</h2>
 
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur voluptas, quidem deserunt optio nemo natus sed ad minima deleniti ipsum. Minus tenetur aliquam sunt quod ullam quas dolorem asperiores accusamus.
         Velit unde maiores porro natus nesciunt iusto? Impedit quo, quis omnis vitae error, nobis iste at non illo facere cumque libero laboriosam excepturi, doloremque tempore! Vitae ipsam iusto aperiam blanditiis.

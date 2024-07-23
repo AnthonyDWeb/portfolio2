@@ -8,6 +8,8 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div id='contact' className='page'>Contact</div>
+    <div id='contact' className='page'>
+      <h2 className='title-page'>Contact</h2>
+    </div>
   )
 }

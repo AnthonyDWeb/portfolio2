@@ -1,6 +1,7 @@
 // LIBRARY //
 import React, { useEffect, useRef } from 'react';
 import Intersection from '../components/Insersection/intersection';
+import Glasscard from '../components/cards/glasscard';
 // STYLE //
 // CONTEXT //
 // PAGE //
@@ -39,21 +40,23 @@ export default function Tools() {
     const observer = new IntersectionObserver((entries) => entries.forEach(el =>
       el.isIntersecting ? el.target.classList.add("active") : el.target.classList.remove("active")
     ));
-    toolsArr.forEach((t,i) => observer.observe(refs.current[i]))
+    toolsArr.forEach((t, i) => observer.observe(refs.current[i]))
   })
 
 
   return (
     <div id='tools' className='page'>
-      <h2>Tools</h2>
+      <h2 className='title-page'>Mes outils</h2>
       <section className='tools-section'>
-        {toolsArr.map((t,index) => {
+        {toolsArr.map((t, index) => {
+          const currRef = (e) => { refs.current[index] = e };
+          const newStyle = { transitionDelay: "0.2s" };
           return (
-            <Intersection key={t.imgLabel}  refObserver={(element) => {refs.current[index] = element}} animation={"fadein"} addStyle={{transitionDelay: "0.2s"}}>
-              <div className='tools-container glasscard'>
-                <img className='tools-icon' src={require(`../assets/toolsIcone/${t.imgFileName}`)} alt={t.imgLabel} />
-                <p className='tools-label'>{t.imgLabel}</p>
-              </div>
+            <Intersection key={t.imgLabel} refObserver={currRef} animation={"fadein"} addStyle={newStyle}>
+                <Glasscard hoverIt addClass={"tools-container"}>
+                  <img className='tools-icon' src={require(`../assets/toolsIcone/${t.imgFileName}`)} alt={t.imgLabel} />
+                  <p className='tools-label'>{t.imgLabel}</p>
+                </Glasscard>
             </Intersection>
           )
         })}
