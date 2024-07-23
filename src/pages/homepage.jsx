@@ -1,6 +1,5 @@
 // LIBRARY //
-import React, { useContext } from 'react';
-import { ThemeContext } from '../contexts/theme';
+import React from 'react';
 // STYLE //
 // CONTEXT //
 // PAGE //
@@ -8,11 +7,10 @@ import { ThemeContext } from '../contexts/theme';
 // OTHER //
 
 export default function Homepage() {
-  const { theme, setTheme } = useContext(ThemeContext);
 
   return (
     <div id='homepage' className='page'>
-      <h1 onClick={() => setTheme(theme === "dark" ? "light" : "dark")} className={theme}>Homepage {theme}</h1>
+      <h1>Homepage</h1>
     </div>
   )
 }

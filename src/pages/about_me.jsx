@@ -25,7 +25,7 @@ export default function AboutMe() {
         </p>
         <br />
         <p> J'ai ensuite poursuivi entre Mai 2021 et Octobre 2021 avec une formation de
-          <a target="_blank" rel="noreferrer" className='redirect link' href="https://www.konexio.eu/index.html">Konexio</a> intitulé <a target="_blank" rel="noreferrer" className='formation link' href="https://www.konexio.eu/competences-code.html">Développeur Web et Mobile Fullstack</a>,
+          <a target="_blank" rel="noreferrer" className='redirect link' href="https://www.konexio.eu/index.html">Konexio</a> intitulé <a target="_blank" rel="noreferrer" className='formation link' href="https://www.konexio.eu/formation-developpeur-web">Développeur Web et Mobile Fullstack</a>,
           celle-ci ayant pour but de professionnaliser ses apprenants à travers une formations complète et très intense à laquelle j'ai continué avec un stage de 6 mois chez
           <a target="_blank" rel="noreferrer" className='redirect link' href="https://www.orchestra.eu/">Orchestra</a>.
         </p>
