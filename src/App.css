@@ -6,8 +6,9 @@
     &.dark {
         color-scheme: dark;
     }
-    color: light-dark(var(--dark), var(--dimligth));
-    background-color: light-dark(var(--dimligth), var(--dark));
+
+    color: light-dark(var(--dark), var(--dimlight));
+    background-color: light-dark(var(--dimlight), var(--dark));
 
     .page {
         display: flex;
@@ -62,15 +63,18 @@
                 font-size: 18px;
                 text-align: justify;
             }
+
             .link {
                 margin: 0 5px;
                 font-weight: 600;
                 font-style: italic;
                 text-decoration: none;
             }
+
             .formation {
                 color: light-dark(crimson, red);
             }
+
             .redirect {
                 color: light-dark(blue, cyan);
             }
