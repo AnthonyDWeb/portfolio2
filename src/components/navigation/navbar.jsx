@@ -39,7 +39,6 @@ export default function NavBar() {
             <a id='nav-tools' href="#tools" className={currentPage === "#nav-tools" ? "active" : "inactive"}>Outils</a>
             <a id='nav-about_me' href="#about_me" className={currentPage === "#nav-about_me" ? "active" : "inactive"}>À propos de moi</a>
             <a id='nav-contact' href="#contact" className={currentPage === "#nav-contact" ? "active" : "inactive"}>Contact</a>
-            <a href='.'>{theme}</a>
           </ul>
         </div>
         <Toggle />
