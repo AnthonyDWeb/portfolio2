@@ -14,9 +14,9 @@
         display: flex;
         align-items: center;
         border-radius: 10px;
-        justify-content: space-between;
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(20px);
+        justify-content: space-around;
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
 
         &:hover {
             transition: all 1s ease;
@@ -28,14 +28,8 @@
             }
         }
 
-        .logo {
-            color: light-dark(var(--dark), var(--dimlight));
-            cursor: pointer;
-            margin-left: 20px;
-        }
-
         .navlinks {
-            width: 60vw;
+            width: 80vw;
 
             ul {
                 display: flex;
@@ -56,8 +50,48 @@
                         background-color: light-dark(var(--dark), #37FF8B);
                         box-shadow: 0 0 1em 0.5em light-dark(transparent, #37FF8B);
                     }
+
+                }
+
+                >.button {
+                    color: white;
+                    text-decoration: none;
+                    font-size: 1.1rem;
+                    border: none;
+                    background: none;
+                    font-weight: 600;
+
+                    &::before {
+                        margin-left: auto;
+                    }
+
+                    &::after,
+                    &::before {
+                        content: '';
+                        width: 0%;
+                        height: 2px;
+                        background: blue;
+                        display: block;
+                        transition: 0.5s;
+                    }
+
+                    &:hover::after,
+                    &:hover::before {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .star-container {
+            align-items: center;
+            /* background-color: red; */
+            .star-icon {
+                border-color: 1px solid aqua;
+                &.special {
+                    fill: #ffeb49;
                 }
             }
         }
     }
 }
+/* fill: #ffeb49; */

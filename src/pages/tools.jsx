@@ -12,10 +12,7 @@ export default function Tools() {
   const refs = useRef([]);
 
   const toolsArr = [
-    { imgFileName: "html.png", imgLabel: "HTML" },
-    { imgFileName: "css.png", imgLabel: "CSS" },
     { imgFileName: "bootstrap.png", imgLabel: "Bootstrap" },
-    { imgFileName: "javascript.png", imgLabel: "Javascript" },
     { imgFileName: "jquery.png", imgLabel: "Jquery" },
     { imgFileName: "typescript.png", imgLabel: "Typescript" },
     { imgFileName: "react.png", imgLabel: "React/Native" },
@@ -24,12 +21,6 @@ export default function Tools() {
     { imgFileName: "nestjs.png", imgLabel: "NestJs" },
     { imgFileName: "mongoDB.svg", imgLabel: "MongoDB" },
     { imgFileName: "mysql.png", imgLabel: "Mysql" },
-    { imgFileName: "postgreSQL.png", imgLabel: "PostgreSQL" },
-    { imgFileName: "java.png", imgLabel: "Java" },
-    { imgFileName: "swiftui.png", imgLabel: "SwiftUI" },
-    { imgFileName: "androidstudio.png", imgLabel: "AndroidStudio" },
-    { imgFileName: "github.svg", imgLabel: "Github" },
-    { imgFileName: "gitlab.png", imgLabel: "Gitlab" },
     { imgFileName: "figma.png", imgLabel: "Figma" },
     { imgFileName: "trello.png", imgLabel: "Trello" },
     { imgFileName: "slack.png", imgLabel: "Slack" },

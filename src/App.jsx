@@ -5,7 +5,7 @@ import Pages from './pages';
 function App() {
   return (
     <ThemeProvider>
-      <Pages/>
+      <Pages />
     </ThemeProvider>
   );
 }

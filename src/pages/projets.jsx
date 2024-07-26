@@ -46,7 +46,7 @@ export default function Projets() {
       </Intersection>
 
       <Intersection refObserver={image1}>
-        <img src={require("../assets/images/shiraoshi.jpg")} style={{ height: 400, width: 800, margin: 50 }} alt=''/>
+        <img src={require("../assets/images/shiraoshi.jpg")} style={{ height: 400, width: 800, margin: 50 }} alt='' />
       </Intersection>
 
       <Intersection refObserver={secondSection} animation={"right fadein"}>
@@ -54,7 +54,7 @@ export default function Projets() {
       </Intersection>
 
       <Intersection refObserver={image2}>
-        <img src={require("../assets/images/sukuna.jpeg")} style={{ height: 400, width: 800, margin: 50 }} alt=''/>
+        <img src={require("../assets/images/sukuna.jpeg")} style={{ height: 400, width: 800, margin: 50 }} alt='' />
       </Intersection>
 
       <Intersection refObserver={thirdSection} animation={"top fadein"}>
