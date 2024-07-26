@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.5ed3f600.css",
-    "main.js": "./static/js/main.4e063c7e.js",
+    "main.css": "./static/css/main.5e509f46.css",
+    "main.js": "./static/js/main.12e9fef0.js",
     "static/js/453.1407b060.chunk.js": "./static/js/453.1407b060.chunk.js",
     "static/media/shiraoshi.jpg": "./static/media/shiraoshi.f1907929f78754369b27.jpg",
+    "static/media/pixel-ia-me.png": "./static/media/pixel-ia-me.b6f1056048a22544c79d.png",
     "static/media/sukuna.jpeg": "./static/media/sukuna.6b3c2bc2bd221ee43310.jpeg",
     "static/media/react.png": "./static/media/react.8a6fc0a24a800d1e0f4a.png",
     "static/media/androidstudio.png": "./static/media/androidstudio.8d3d843f14ee8921dc04.png",
@@ -22,12 +23,12 @@
     "static/media/github.svg": "./static/media/github.5463bf542b33d9f87619.svg",
     "static/media/mongoDB.svg": "./static/media/mongoDB.1aca075d5cce0819fea7.svg",
     "index.html": "./index.html",
-    "main.5ed3f600.css.map": "./static/css/main.5ed3f600.css.map",
-    "main.4e063c7e.js.map": "./static/js/main.4e063c7e.js.map",
+    "main.5e509f46.css.map": "./static/css/main.5e509f46.css.map",
+    "main.12e9fef0.js.map": "./static/js/main.12e9fef0.js.map",
     "453.1407b060.chunk.js.map": "./static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ed3f600.css",
-    "static/js/main.4e063c7e.js"
+    "static/css/main.5e509f46.css",
+    "static/js/main.12e9fef0.js"
   ]
 }
