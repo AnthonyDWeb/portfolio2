@@ -11,7 +11,7 @@ export default function AboutMe() {
   return (
     <div id='about_me' className='page'>
       <h2 className='title-page'>À propos de moi ?</h2>
-      <Glasscard addstyle={{ padding: 20 }}>
+      <Glasscard addClass="container">
         <p>
           Après un cursus initial en biologie guidé par un besoin continu d'apprentissage et de recherche, je me suis réorienté vers le developpement web et mobile, un métier d'avenir ayant pour caractéristique un apprentissage continu tout au long de sa carrière, ce qui correspond à mes besoins.
         </p>

@@ -3,7 +3,7 @@
   --animation-color: light-dark(var(--dark),#37FF8B);
 }
 
-.button {
+.span-container {
   margin: 0;
   height: auto;
   background: transparent;
@@ -12,14 +12,13 @@
 }
 
 /* button styling */
-.button {
+.span-container {
   letter-spacing: 3px;
   text-decoration: none;
-  font-size: 2.5vw;
   font-family: "Arial";
   position: relative;
   color: light-dark(var(--dimlight),transparent);
-  -webkit-text-stroke: 2px var(--gray);
+  -webkit-text-stroke: 1px var(--gray);
 }
 /* this is the text, when you hover on button */
 .hover-text {
@@ -32,10 +31,10 @@
   border-right: 6px solid var(--animation-color);
   overflow: hidden;
   transition: 0.5s;
-  -webkit-text-stroke: 2px var(--animation-color);
+  -webkit-text-stroke: 1px var(--animation-color);
 }
 /* hover */
-.button:hover .hover-text {
+.span-container:hover .hover-text {
   width: 100%;
   filter: drop-shadow(0 0 23px var(--animation-color));
   text-shadow: 2px 0 1px cyan;

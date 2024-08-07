@@ -2,9 +2,15 @@
   color-scheme: light-dark;
   --light: #fff;
   --dimlight: #f8f9fa;
+  --separator: #f8f9fa53;
   --gray: #6c757d;
   --dimgray: #343a40;
   --dark: #212529;
+  --main-title: 2.3vmax;
+  --page-title: 2.15vmax;
+  --sub-title: 2vmax;
+  --text: 1.4vmax;
+  --description-text: 1vmax;
 
 }
 
@@ -12,6 +18,29 @@
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
-  scroll-padding-top: 6vh;
-  transition: all 0.3s ease;
+  scroll-padding-top: 15vh;
+}
+
+h1 {
+  font-size: var(--main-title);
+}
+
+h2 {
+  text-align: center;
+  font-size: var(--page-title);
+}
+
+h3 {
+  font-size: var(--sub-title);
+}
+
+p {
+  text-align: justify;
+  font-size: var(--text);
+}
+
+@media screen and (width < 1024px) {
+  * {
+    scroll-padding-top: 7.5vh;
+  }
 }

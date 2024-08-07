@@ -163,5 +163,13 @@
             padding: 2.5vh 5vw;
             border-top: 1px solid var(--separator);
         }
+
+        @media screen and (width <= 1024px) {
+            &#homepage {
+                height: fit-content;
+                padding-top: 7vh;
+            }
+        }
     }
+
 }
